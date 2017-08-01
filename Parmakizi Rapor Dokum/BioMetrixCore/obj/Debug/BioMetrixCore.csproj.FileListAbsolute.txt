@@ -1,0 +1,37 @@
+D:\Zktech\ZKTeco Using C#\BioMatrix\BioMetrixCore\bin\Debug\BioMetrixCore.exe.config
+D:\Zktech\ZKTeco Using C#\BioMatrix\BioMetrixCore\bin\Debug\BioMetrixCore.exe
+D:\Zktech\ZKTeco Using C#\BioMatrix\BioMetrixCore\bin\Debug\BioMetrixCore.pdb
+D:\Zktech\ZKTeco Using C#\BioMatrix\BioMetrixCore\obj\Debug\BioMetrixCore.csprojResolveAssemblyReference.cache
+D:\Zktech\ZKTeco Using C#\BioMatrix\BioMetrixCore\obj\Debug\Interop.zkemkeeper.dll
+D:\Zktech\ZKTeco Using C#\BioMatrix\BioMetrixCore\obj\Debug\BioMetrixCore.csproj.ResolveComReference.cache
+D:\Zktech\ZKTeco Using C#\BioMatrix\BioMetrixCore\obj\Debug\BioMetrixCore.DataEmpty.resources
+D:\Zktech\ZKTeco Using C#\BioMatrix\BioMetrixCore\obj\Debug\BioMetrixCore.Master.resources
+D:\Zktech\ZKTeco Using C#\BioMatrix\BioMetrixCore\obj\Debug\BioMetrixCore.Properties.Resources.resources
+D:\Zktech\ZKTeco Using C#\BioMatrix\BioMetrixCore\obj\Debug\BioMetrixCore.csproj.GenerateResource.Cache
+D:\Zktech\ZKTeco Using C#\BioMatrix\BioMetrixCore\obj\Debug\BioMetrixCore.exe
+D:\Zktech\ZKTeco Using C#\BioMatrix\BioMetrixCore\obj\Debug\BioMetrixCore.pdb
+D:\BioMetrix\BioMatrix\BioMetrixCore\bin\Debug\BioMetrixCore.exe.config
+D:\BioMetrix\BioMatrix\BioMetrixCore\obj\Debug\Interop.zkemkeeper.dll
+D:\BioMetrix\BioMatrix\BioMetrixCore\obj\Debug\BioMetrixCore.csproj.ResolveComReference.cache
+D:\BioMetrix\BioMatrix\BioMetrixCore\obj\Debug\BioMetrixCore.exe
+D:\BioMetrix\BioMatrix\BioMetrixCore\obj\Debug\BioMetrixCore.pdb
+D:\BioMetrix\BioMatrix\BioMetrixCore\bin\Debug\BioMetrixCore.exe
+D:\BioMetrix\BioMatrix\BioMetrixCore\bin\Debug\BioMetrixCore.pdb
+D:\BioMetrix\BioMatrix\BioMetrixCore\obj\Debug\BioMetrixCore.csprojResolveAssemblyReference.cache
+D:\BioMetrix\BioMatrix\BioMetrixCore\obj\Debug\BioMetrixCore.DataEmpty.resources
+D:\BioMetrix\BioMatrix\BioMetrixCore\obj\Debug\BioMetrixCore.Master.resources
+D:\BioMetrix\BioMatrix\BioMetrixCore\obj\Debug\BioMetrixCore.Properties.Resources.resources
+D:\BioMetrix\BioMatrix\BioMetrixCore\obj\Debug\BioMetrixCore.csproj.GenerateResource.Cache
+C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\BioMetrixCore\bin\Debug\BioMetrixCore.exe.config
+C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\BioMetrixCore\obj\Debug\Interop.zkemkeeper.dll
+C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\BioMetrixCore\obj\Debug\BioMetrixCore.csproj.ResolveComReference.cache
+C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\BioMetrixCore\obj\Debug\BioMetrixCore.exe
+C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\BioMetrixCore\obj\Debug\BioMetrixCore.pdb
+C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\BioMetrixCore\bin\Debug\BioMetrixCore.exe
+C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\BioMetrixCore\bin\Debug\BioMetrixCore.pdb
+C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\BioMetrixCore\obj\Debug\BioMetrixCore.csprojResolveAssemblyReference.cache
+C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\BioMetrixCore\obj\Debug\BioMetrixCore.DataEmpty.resources
+C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\BioMetrixCore\obj\Debug\BioMetrixCore.MainForm.resources
+C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\BioMetrixCore\obj\Debug\BioMetrixCore.Master.resources
+C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\BioMetrixCore\obj\Debug\BioMetrixCore.Properties.Resources.resources
+C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\BioMetrixCore\obj\Debug\BioMetrixCore.csproj.GenerateResource.Cache
