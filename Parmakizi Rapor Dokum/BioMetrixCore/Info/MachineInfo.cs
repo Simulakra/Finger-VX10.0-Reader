@@ -6,7 +6,10 @@ namespace BioMetrixCore
     {
         public int MachineNumber { get; set; }
         public int IndRegID { get; set; }
+        public int dwVerifyMode { get; set; }
+        public int dwInOutMode { get; set; }
         public string DateTimeRecord { get; set; }
+
 
         public DateTime DateOnlyRecord
         {

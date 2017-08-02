@@ -24,24 +24,25 @@ namespace BioMetrixCore
 
             while (objZkeeper.SSR_GetAllUserInfo(machineNumber, out sdwEnrollNumber, out sName, out sPassword, out iPrivilege, out bEnabled))
             {
+                UserInfo fpInfo = new UserInfo();
+                fpInfo.FingerIndex = 0;
                 for (idwFingerIndex = 0; idwFingerIndex < 10; idwFingerIndex++)
                 {
                     if (objZkeeper.GetUserTmpExStr(machineNumber, sdwEnrollNumber, idwFingerIndex, out iFlag, out sTmpData, out iTmpLength))
                     {
-                        UserInfo fpInfo = new UserInfo();
+                        fpInfo = new UserInfo();
                         fpInfo.MachineNumber = machineNumber;
                         fpInfo.EnrollNumber = sdwEnrollNumber;
                         fpInfo.Name = sName;
-                        fpInfo.FingerIndex = idwFingerIndex;
+                        fpInfo.FingerIndex += 1; //idwFingerIndex;
                         fpInfo.TmpData = sTmpData;
                         fpInfo.Privelage = iPrivilege;
                         fpInfo.Password = sPassword;
                         fpInfo.Enabled = bEnabled;
                         fpInfo.iFlag = iFlag.ToString();
-
-                        lstFPTemplates.Add(fpInfo);
                     }
                 }
+                lstFPTemplates.Add(fpInfo);
 
             }
             return lstFPTemplates;
@@ -73,6 +74,8 @@ namespace BioMetrixCore
                 MachineInfo objInfo = new MachineInfo();
                 objInfo.MachineNumber = machineNumber;
                 objInfo.IndRegID = int.Parse(dwEnrollNumber1);
+                objInfo.dwVerifyMode = dwVerifyMode;
+                objInfo.dwInOutMode = dwInOutMode;
                 objInfo.DateTimeRecord = inputDate;
 
                 lstEnrollData.Add(objInfo);

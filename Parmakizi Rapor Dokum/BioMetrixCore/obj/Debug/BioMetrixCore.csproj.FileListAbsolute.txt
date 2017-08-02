@@ -35,3 +35,5 @@ C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\Bio
 C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\BioMetrixCore\obj\Debug\BioMetrixCore.Master.resources
 C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\BioMetrixCore\obj\Debug\BioMetrixCore.Properties.Resources.resources
 C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\BioMetrixCore\obj\Debug\BioMetrixCore.csproj.GenerateResource.Cache
+C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\BioMetrixCore\obj\Debug\BioMetrixCore.UserControls.ShowUsers.resources
+C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\BioMetrixCore\obj\Debug\BioMetrixCore.UserControls.ShowAllLog.resources
