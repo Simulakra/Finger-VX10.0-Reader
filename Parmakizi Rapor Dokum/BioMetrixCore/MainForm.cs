@@ -18,8 +18,8 @@ namespace BioMetrixCore
         {
             InitializeComponent();
             ArrayList menü = new ArrayList();
-            menü.Add(MakeMenu("Kullanıcılar", new UserControls.ShowUsers(this)));
-            menü.Add(MakeMenu("Kayıtlar", new UserControls.ShowAllLog(this)));
+            menü.Add(MakeMenu("Kullanıcılar", "ShowUsers"));
+            menü.Add(MakeMenu("Kayıtlar", "ShowAllLog"));
             int pad = 3;
             for (int i = 0; i < menü.Count; i++)
             {
@@ -37,7 +37,7 @@ namespace BioMetrixCore
             //tsm_baglan_Click(sender, e);
         }
 
-        private Button MakeMenu(string text, UserControl form)
+        private Button MakeMenu(string text, string form)
         {
             Button temp = new Button();
             temp.Text = text;
@@ -48,7 +48,13 @@ namespace BioMetrixCore
 
         private void MenuButtonClick(object sender, EventArgs e)
         {
-            UserControl temp = (UserControl)((Button)sender).Tag;
+            UserControl temp;
+            switch (((Button)sender).Tag.ToString())
+            {
+                case "ShowUsers": temp = new UserControls.ShowUsers(this); break;
+                case "ShowAllLog": temp = new UserControls.ShowAllLog(this); break;
+                default: temp = new UserControl(); break;
+            }
             pn_ana.Controls.Clear();
             temp.Dock = DockStyle.Fill;
             pn_ana.Controls.Add(temp);
@@ -113,6 +119,20 @@ namespace BioMetrixCore
             this.Cursor = Cursors.Default;
         }
 
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (IsDeviceConnected)
+            {
+                IsDeviceConnected = false;
+                this.Cursor = Cursors.Default;
+                //enable device
+                if (checkBox1.Checked)
+                {
+                    bool deviceEnabled = objZkeeper.EnableDevice(int.Parse(toolStripTextBox3.Text.Trim()), true);
+                }
+            }
+        }
+
         #region HelperMethods
         DeviceManipulator manipulator = new DeviceManipulator();
         public ZkemClient objZkeeper;
@@ -172,19 +192,5 @@ namespace BioMetrixCore
 
         }
         #endregion
-
-        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            if (IsDeviceConnected)
-            {
-                IsDeviceConnected = false;
-                this.Cursor = Cursors.Default;
-                //enable device
-                if (checkBox1.Checked)
-                {
-                    bool deviceEnabled = objZkeeper.EnableDevice(int.Parse(toolStripTextBox3.Text.Trim()), true);
-                }
-            }
-        }
     }
 }

@@ -1,0 +1,10 @@
+C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\DoorService\bin\Debug\DoorService.exe.config
+C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\DoorService\bin\Debug\DoorService.exe
+C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\DoorService\bin\Debug\DoorService.pdb
+C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\DoorService\bin\Debug\BioMetrixCore.exe
+C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\DoorService\bin\Debug\BioMetrixCore.pdb
+C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\DoorService\obj\Debug\DoorService.csprojResolveAssemblyReference.cache
+C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\DoorService\obj\Debug\Interop.zkemkeeper.dll
+C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\DoorService\obj\Debug\DoorService.csproj.ResolveComReference.cache
+C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\DoorService\obj\Debug\DoorService.exe
+C:\Users\Berke\Documents\Projects\Finger-VX10.0-Reader\Parmakizi Rapor Dokum\DoorService\obj\Debug\DoorService.pdb

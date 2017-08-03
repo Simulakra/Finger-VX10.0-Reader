@@ -24,6 +24,16 @@ namespace BioMetrixCore.UserControls
 
         private void ShowAllLog_Load(object sender, EventArgs e)
         {
+            for (int i = 0; i < checkedListBox1.Items.Count; i++)
+            {
+                checkedListBox1.SetItemChecked(i, true);
+            }
+            PullAllData();
+        }
+
+        private void PullAllData()
+        {
+            listBox1.Items.Clear();
             try
             {
                 master.ShowStatusBar(string.Empty, true);
@@ -33,11 +43,23 @@ namespace BioMetrixCore.UserControls
 
                 if (lstMachineInfo != null && lstMachineInfo.Count > 0)
                 {
-                    foreach(MachineInfo item in lstMachineInfo)
+                    foreach (MachineInfo item in lstMachineInfo)
                     {
                         string g_kisi = item.IndRegID.ToString();
                         string g_cesit = item.dwInOutMode.ToString();
                         string g_yontem = item.dwVerifyMode.ToString();
+
+                        if (radioButton2.Checked && g_yontem == "1") continue;
+                        if (radioButton3.Checked && g_yontem == "0") continue;
+                        if (!checkedListBox1.GetItemChecked(0) && g_cesit == "0") continue;
+                        if (!checkedListBox1.GetItemChecked(1) && g_cesit == "1") continue;
+                        if (!checkedListBox1.GetItemChecked(2) && g_cesit == "4") continue;
+                        if (!checkedListBox1.GetItemChecked(3) && g_cesit == "5") continue;
+                        if(checkBox1.Checked)
+                        {
+                            DateTime temp = Convert.ToDateTime(item.DateTimeRecord);
+                            if (!(monthCalendar1.SelectionStart.Date <= temp && temp <= monthCalendar1.SelectionEnd.Date.AddHours(23).AddMinutes(59))) continue;
+                        }
 
                         if (lstFingerPrintTemplates != null && lstFingerPrintTemplates.Count > 0)
                         {
@@ -56,6 +78,7 @@ namespace BioMetrixCore.UserControls
                             case "5": g_cesit = "Fm_Çıkış"; break;
                             default: break;
                         }
+
                         switch (g_yontem)
                         {
                             case "0": g_yontem = "Şifre"; break;
@@ -63,10 +86,10 @@ namespace BioMetrixCore.UserControls
                             default: break;
                         }
 
-                        listBox1.Items.Add(g_kisi + " - " + g_cesit + " - " 
+                        listBox1.Items.Add(g_kisi + " - " + g_cesit + " - "
                             + g_yontem + " - " + item.DateTimeRecord);
                     }
-                    master.ShowStatusBar(lstMachineInfo.Count + " kayıt bulundu!", true);
+                    master.ShowStatusBar(lstMachineInfo.Count + " kayıt bulundu! "+listBox1.Items.Count+" adet kayıt istenilen kriterlerde.", true);
                 }
                 else
                     master.ShowStatusBar("Hiç kayıt bulunamadı", false);
@@ -75,6 +98,11 @@ namespace BioMetrixCore.UserControls
             {
                 master.ShowStatusBar(ex.Message, false);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            PullAllData();
         }
     }
 }

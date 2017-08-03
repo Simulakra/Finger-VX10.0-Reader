@@ -30,9 +30,8 @@
         {
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.lb_data = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,6 +44,7 @@
             this.listBox1.ItemHeight = 21;
             this.listBox1.Location = new System.Drawing.Point(3, 3);
             this.listBox1.Name = "listBox1";
+            this.listBox1.ScrollAlwaysVisible = true;
             this.listBox1.Size = new System.Drawing.Size(184, 424);
             this.listBox1.TabIndex = 0;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
@@ -61,15 +61,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Kullanıcı Bilgileri";
             // 
-            // button1
+            // lb_data
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(193, 390);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(414, 37);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Tüm Dataları Local\'e Kaydet";
-            this.button1.UseVisualStyleBackColor = true;
+            this.lb_data.AutoSize = true;
+            this.lb_data.Location = new System.Drawing.Point(167, 25);
+            this.lb_data.Name = "lb_data";
+            this.lb_data.Size = new System.Drawing.Size(0, 21);
+            this.lb_data.TabIndex = 0;
+            this.lb_data.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label1
             // 
@@ -81,21 +80,11 @@
             this.label1.Text = "Kişi ID:\r\nKullanıcı Adı:\r\nKayıtlı Parmak Sayısı:\r\nEl İle Giriş Şifresi:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // lb_data
-            // 
-            this.lb_data.AutoSize = true;
-            this.lb_data.Location = new System.Drawing.Point(167, 25);
-            this.lb_data.Name = "lb_data";
-            this.lb_data.Size = new System.Drawing.Size(0, 21);
-            this.lb_data.TabIndex = 0;
-            this.lb_data.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // ShowUsers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.listBox1);
             this.Font = new System.Drawing.Font("Segoe UI", 12F);
@@ -114,7 +103,6 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label lb_data;
     }
 }
