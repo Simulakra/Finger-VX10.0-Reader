@@ -51,7 +51,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.menuStrip1.Size = new System.Drawing.Size(900, 27);
+            this.menuStrip1.Size = new System.Drawing.Size(1071, 27);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -89,7 +89,7 @@
             this.lb_info.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lb_info.Location = new System.Drawing.Point(2, 2);
             this.lb_info.Name = "lb_info";
-            this.lb_info.Size = new System.Drawing.Size(558, 23);
+            this.lb_info.Size = new System.Drawing.Size(729, 23);
             this.lb_info.TabIndex = 1;
             this.lb_info.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -100,7 +100,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pn_ana.Location = new System.Drawing.Point(136, 27);
             this.pn_ana.Name = "pn_ana";
-            this.pn_ana.Size = new System.Drawing.Size(764, 452);
+            this.pn_ana.Size = new System.Drawing.Size(935, 531);
             this.pn_ana.TabIndex = 3;
             // 
             // pn_menu
@@ -111,7 +111,7 @@
             this.pn_menu.Enabled = false;
             this.pn_menu.Location = new System.Drawing.Point(-1, 26);
             this.pn_menu.Name = "pn_menu";
-            this.pn_menu.Size = new System.Drawing.Size(137, 456);
+            this.pn_menu.Size = new System.Drawing.Size(137, 535);
             this.pn_menu.TabIndex = 2;
             // 
             // checkBox1
@@ -119,7 +119,7 @@
             this.checkBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox1.AutoSize = true;
             this.checkBox1.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.checkBox1.Location = new System.Drawing.Point(566, 4);
+            this.checkBox1.Location = new System.Drawing.Point(737, 4);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(105, 17);
             this.checkBox1.TabIndex = 4;
@@ -131,7 +131,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
-            this.ClientSize = new System.Drawing.Size(900, 481);
+            this.ClientSize = new System.Drawing.Size(1071, 560);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.lb_info);
             this.Controls.Add(this.menuStrip1);
