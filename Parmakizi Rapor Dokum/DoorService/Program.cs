@@ -19,7 +19,7 @@ namespace DoorService
             SerialPort ss = new SerialPort("COM1");
             try
             {
-                Console.WriteLine("Bağlantı Kuruluyor.");
+                Console.WriteLine("Bağlantı Kuruluyor.\nIP: 192.168.2.55:4370");
 
                 string ipAddress = "192.168.2.55";
                 int portNumber = 4370;
@@ -51,8 +51,8 @@ namespace DoorService
                             if (tNow.AddMilliseconds(-1 * tolerans) < tSon)
                             {
                                 ss.Write("0");
+                                Console.WriteLine("KAPI AÇ");
                                 System.Threading.Thread.Sleep(1000);
-                                //Console.WriteLine("KAPI AÇ");
                             }
                         }
                         
